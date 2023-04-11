@@ -26,6 +26,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.imageView4.setOnClickListener {
+            startActivity(Intent(this, ProductListActivity::class.java))
+        }
 
     }
 }
