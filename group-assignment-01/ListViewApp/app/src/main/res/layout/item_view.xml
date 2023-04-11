@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="24dp"
-    android:id="@+id/card_view"
+    android:id="@+id/cardView"
     app:cardBackgroundColor="@color/teal_200"
     app:cardCornerRadius="12dp"
     android:layout_marginBottom="5dp"
@@ -22,7 +22,7 @@
             android:id="@+id/imageView"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            tools:srcCompat="@tools:sample/avatars" />
+            />
 
         <TextView
             android:id="@+id/tvTitle"
